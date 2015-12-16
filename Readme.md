@@ -12,10 +12,12 @@ From within `/src/Native/Foo.js`
 ```javascript
 var ElmNativeModule = require('elm-native-module')
 
-ElmNativeModule('Foo', {
+ElmNativeModule(Elm, 'Foo', {
 	bar: function() {return 'Bar'}
 })
 ```
+
+Note that the Elm object is passed in as the first argument.
 
 ## Notice!
 

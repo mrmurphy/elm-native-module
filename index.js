@@ -1,7 +1,7 @@
 // This snippet was written by Tom Ashworth. I pulled it from
 // https://phuu.net/2014/10/29/elm-native-modules.html
 
-module.exports = function ElmNativeModule(name, values) {
+module.exports = function ElmNativeModule(Elm, name, values) {
     Elm.Native[name] = {};
     Elm.Native[name].make = function(elm) {
         elm.Native = elm.Native || {};
