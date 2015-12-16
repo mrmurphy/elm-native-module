@@ -1,6 +1,6 @@
 {
   "name": "elm-native-module",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple function to help while defining an Elm native module",
   "main": "index.js",
   "scripts": {
