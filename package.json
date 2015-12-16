@@ -1,0 +1,24 @@
+{
+  "name": "elm-native-module",
+  "version": "1.0.0",
+  "description": "A simple function to help while defining an Elm native module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests! Sorry!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/splodingsocks/elm-native-module.git"
+  },
+  "keywords": [
+    "elm",
+    "native",
+    "module"
+  ],
+  "author": "Murphy Randle, code from Tom Ashworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splodingsocks/elm-native-module/issues"
+  },
+  "homepage": "https://github.com/splodingsocks/elm-native-module#readme"
+}
